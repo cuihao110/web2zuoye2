@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2018-12-24 10:25:10
 * @Last Modified by:   cuihao110
-* @Last Modified time: 2019-01-14 18:33:13
+* @Last Modified time: 2019-01-14 18:40:37
 */
 *{
 	margin: 0;
@@ -163,6 +163,7 @@
 }
 .pword{
 	font-size: 9px;
+	text-align: center;
 	color: #9a9791;
 }
 .cword{
