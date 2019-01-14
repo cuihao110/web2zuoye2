@@ -1,19 +1,17 @@
 /*
 * @Author: dell
 * @Date:   2018-12-16 14:02:21
-* @Last Modified by:   dell
-* @Last Modified time: 2019-01-04 15:58:29
+* @Last Modified by:   cuihao110
+* @Last Modified time: 2019-01-14 18:20:30
 */
 *{
 	margin: 0;
 	padding: 0;
-	/* background-color: #f8f7f6; */
 }
 .large{
 	margin: 0 auto;
 	width: 100%;
 	height: 1063px;
-	/* background-color: #f8f7f6;  */
 }
 #shangfu{
 	margin:0 auto;
@@ -48,7 +46,6 @@
 	margin-top: 10px;
 	font-size: 12px;
 	color:#9a9791;
-	/* margin-left: 10px; */
 	float: left;
 }
 .QQ{
@@ -504,8 +501,6 @@
 	width: 995px;
 	height: 183px;
 	margin-left: 184px;
-	/* margin-top: 1000px; */
-	/* float: left; */
 }
 .tu1{
 	width: 200px;
@@ -597,7 +592,6 @@
 .liebiao{
 	width: 1000px;
 	height: 180px;
-	/* border-bottom: solid 1px #ebeae8;  */
 }
 .w1{
 	margin-left: 230px;
@@ -651,8 +645,6 @@
 .youerwei{
 	margin-left: 1030px;
 	margin-top: -180px;
-	/* width: 180px;
-	border-bottom: solid 1px #ebeae8;  */
 }
 .weibu{
 	margin:0 auto;
@@ -699,7 +691,6 @@
 }
 .haoduozi{
 	list-style: none;
-	/* margin-top: 30px; */
 	line-height: 25px;
 }
 .haoduozi li{

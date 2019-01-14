@@ -87,7 +87,6 @@
 					<li class="lj2"><a href="">韩国馆</a></li>
 					<li class="lj2"><a href="">帮社区</a></li>
 					<li class="lj2"><a href="">1元兑奖</a><div class="hot"><img src="../img/hot.gif" alt=""></div></li>
-					
 				</ul>
 			</div>
 			</div>
@@ -519,12 +518,6 @@
 			var ce2 = document.getElementById("ce2");
 			var ce3 = document.getElementById("ce3");
 			var ce4 = document.getElementById("ce4");
-			// ce1.onmouseover=move1;
-			// function move1(){
-			// 	animate(ce1,{right:80},function(){
-			// 		console.log(1)
-			// 	});
-			// }
 			function getStyle(obj, attr){
 				if(obj.currentStyle){
 					return obj.currentStyle[attr];
@@ -563,34 +556,18 @@
 					}
 				},30);
 			}
-			// function animate(obj,json,callback){
-			// 	clearInterval(obj.timer);
-			// 	var timer = setInterval(function(){
-			// 		var now = parseInt(getStyle(ce1,'right'));
-			// 		var speed = (0 - now) / 6 ;
-			// 		speed = speed>0?Math.ceil(speed):Math.floor(speed);
-			// 		if(now == 0){
-			// 			clearInterval(timer);
-			// 		}else{
-			// 			box.style.right = now + speed + "px";
-			// 		}
-			// 	},30)
-			// }
-		//var float1 = document.getElementById('float1');
 		ce1.onmouseover = function(){
     		animate(ce1,{right:0,top:82,opacity:100});
 		}
 		ce1.onmouseout = function(){
     		animate(ce1,{right:-83,top:82,opacity:100});
 		}
-		//var float2 = document.getElementById('float2');
 		ce2.onmouseover = function(){
     		animate(ce2,{right:0,top:191,opacity:100});
 		}
 		ce2.onmouseout = function(){
     		animate(ce2,{right:-83,top:191,opacity:100});
 		}
-		//var float3 = document.getElementById('float3');
 		var ce3t = document.getElementById('ce3t');
 		ce3.onmouseover = function(){
     		animate(ce3,{right:0,top:336,opacity:100});
@@ -602,13 +579,11 @@
     		ce3t.src = "../img/serwei.png";
     		ce3t.style.marginTop = "36px";
 		}
-		//var float4 = document.getElementById('float4');
 		ce4.onmouseover = function(){
     		animate(ce4,{right:0,top:491,opacity:100});
 		}
 		ce4.onmouseout = function(){
     		animate(ce4,{right:-83,top:491,opacity:100});
 		}     
-
-  		</script>	
+  </script>	
 </html>
