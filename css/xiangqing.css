@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2018-12-24 10:25:10
 * @Last Modified by:   cuihao110
-* @Last Modified time: 2019-01-14 18:18:54
+* @Last Modified time: 2019-01-14 18:33:13
 */
 *{
 	margin: 0;
@@ -695,7 +695,8 @@
 	width: 410px;
 	height: 410px;
 	border: 1px solid #d0cdc7;
-	left: 792px;
+	/* left: 792px; */
+	margin-left: 410px;
 	top: 239px;
 	display: none;
 	overflow:hidden;
